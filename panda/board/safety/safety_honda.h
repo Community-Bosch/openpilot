@@ -35,6 +35,8 @@ int honda_speed = 0;
 bool honda_bosch_hardware = false;
 bool honda_alt_brake_msg = false;
 bool honda_fwd_brake = false;
+bool long_controls_allowed = true;
+
 enum {HONDA_N_HW, HONDA_BG_HW, HONDA_BH_HW} honda_hw = HONDA_N_HW;
 
 
